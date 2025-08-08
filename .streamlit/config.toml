@@ -1,0 +1,22 @@
+[server]
+port = 8501
+headless = true
+enableCORS = false
+enableXsrfProtection = false  # Keep disabled for debugging
+cookieSecret = "your-unique-secret-key-12345"  # Replace with a secure, random string
+maxUploadSize = 50  # Limit to 50MB
+fileWatcherType = "none"
+
+[logger]
+level = "debug"
+
+[browser]
+gatherUsageStats = false
+serverAddress = "sarafay2003-resume-checker.hf.space"  # Your Space URL
+
+[theme]
+primaryColor = "#4B8BBE"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
