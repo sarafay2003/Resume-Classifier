@@ -1,0 +1,6 @@
+streamlit==1.37.1
+pandas
+scikit-learn==1.5.1
+joblib
+requests
+PyPDF2
